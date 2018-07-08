@@ -4,7 +4,9 @@
 "              newbie, basing your first .vimrc on this file is a good choice.
 "              If you're a more advanced user, building your own .vimrc based
 "              on this file is still a good idea.
- 
+"
+" Michi's Version
+" 
 "------------------------------------------------------------
 " Features {{{1
 "
