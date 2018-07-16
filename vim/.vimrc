@@ -7,6 +7,14 @@
 "
 " Michi's Version
 " 
+"
+
+"------------------------------------------------------------
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+call plug#end()
 "------------------------------------------------------------
 " Features {{{1
 "
@@ -142,8 +150,8 @@ set expandtab
  
 " Indentation settings for using hard tabs for indent. Display tabs as
 " four characters wide.
-"set shiftwidth=4
-"set tabstop=4
+set shiftwidth=4
+set tabstop=4
  
  
 "------------------------------------------------------------
@@ -158,7 +166,14 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
- 
+
+
+" Map jj to ESC
+inoremap jj <ESC>
+
+" Map F2 to write-and-run
+map <F2> <Esc>:w<CR>:!./%<CR>
+
 "------------------------------------------------------------
 "
 " Highlight search results immediately
