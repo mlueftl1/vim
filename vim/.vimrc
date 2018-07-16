@@ -12,7 +12,7 @@
 "------------------------------------------------------------
 " vim-plug
 call plug#begin('~/.vim/plugged')
-Plug '/usr/local/opt/fzf'
+Plug '~/.fzf'
 Plug 'junegunn/fzf.vim'
 call plug#end()
 "------------------------------------------------------------
