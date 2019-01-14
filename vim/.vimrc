@@ -14,6 +14,9 @@
 call plug#begin('~/.vim/plugged')
 Plug '~/.fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'jamessan/vim-gnupg'
+
+" ml: If you add something here, call :PlugInstall afterwards
 call plug#end()
 "------------------------------------------------------------
 " Features {{{1
