@@ -2,9 +2,8 @@
 
 alias ll="ls -alh  --time-style=long-iso"
 alias sl="ls"
-
 alias push="git status && read yes && git add --all && git commit -m\"(no message)\" && git pull --rebase && git push"
-
+alias ag="ag --hidden"
 
 #!/bin/bash
 
